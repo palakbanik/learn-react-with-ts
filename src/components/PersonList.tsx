@@ -1,15 +1,13 @@
+import { Name } from "./Person.type";
 type PersonListProps = {
-  names: {
-    first: string;
-    last: string;
-  };
-}[];
+  names: Name[];
+};
 
 export default function PersonList(props: PersonListProps) {
   return (
     <>
       <div>
-        {props.names.map((name: string) => {
+        {props.names.map((name) => {
           return (
             <h2>
               {name.first} {name.last}

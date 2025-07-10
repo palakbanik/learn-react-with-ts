@@ -5,7 +5,7 @@
 // import Status from "./components/Status";
 // import Oscar from "./components/Oscar";
 
-import Buttons from "./components/Buttons";
+// import Buttons from "./components/Buttons";
 import Container from "./components/Container";
 
 export default function App() {
