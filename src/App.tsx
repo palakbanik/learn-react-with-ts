@@ -6,6 +6,7 @@
 // import Oscar from "./components/Oscar";
 
 import Buttons from "./components/Buttons";
+import Container from "./components/Container";
 
 export default function App() {
   //   const personName = {
@@ -40,11 +41,13 @@ export default function App() {
           <Heading>Oscar goes to leonardo dispario!</Heading>
         </Oscar> */}
 
-        <Buttons
+        {/* <Buttons
           handleClick={(event, id) => {
             console.log("Button Clicked", event, id);
           }}
-        />
+        /> */}
+
+        <Container style={{ border: "1px solid white", padding: "1rem" }} />
       </div>
     </>
   );
