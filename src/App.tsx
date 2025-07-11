@@ -7,6 +7,8 @@
 
 // import Buttons from "./components/Buttons";
 import Container from "./components/Container";
+import LoggedIn from "./components/state/LoggedIn";
+import User from "./components/state/User";
 
 export default function App() {
   //   const personName = {
@@ -47,7 +49,10 @@ export default function App() {
           }}
         /> */}
 
-        <Container style={{ border: "1px solid white", padding: "1rem" }} />
+        {/* <Container style={{ border: "1px solid white", padding: "1rem" }} /> */}
+
+        {/* <LoggedIn /> */}
+        <User />
       </div>
     </>
   );
